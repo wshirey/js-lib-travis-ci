@@ -18,7 +18,7 @@ deploy:
       tags: true
   - provider: releases
     api-key: $GITHUB_AUTH_TOKEN
-    file: dist/index.js
+    file: lib/index.js
     skip_cleanup: true
     on:
       tags: true
