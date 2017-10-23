@@ -1,6 +1,6 @@
 {
   "name": "js-library-travis-ci",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Javascript library that will be built and deployed with Travis CI",
   "main": "lib/index.js",
   "scripts": {
