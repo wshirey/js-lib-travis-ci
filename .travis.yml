@@ -12,7 +12,8 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: "js-dist-example"
+    bucket: "js-library-travis-ci"
+    upload_dir: lib/$TRAVIS_TAG
     skip_cleanup: true
     on:
       tags: true
