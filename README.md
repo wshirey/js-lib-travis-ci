@@ -29,7 +29,7 @@ has the [`public_repo` scope](https://developer.github.com/apps/building-integra
 Once you fetch your token, set this as an environment variable in Travis CI called
 `GITHUB_AUTH_TOKEN`.
 
-### AWS environment variables
+### `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables
 
 To be able to publish to AWS S3, Travis CI needs two keys associated with an AWS
 IAM user to authenticate to AWS: The Access key ID, and the Secret Key ID. These
