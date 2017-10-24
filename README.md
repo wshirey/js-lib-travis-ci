@@ -106,6 +106,8 @@ When you're ready to have Travis CI publish a new version of your package to npm
 
 * `npm run release`, this will look at your commit history, and use [standard-version](https://github.com/conventional-changelog/standard-version)
   to: bump the version #, create a tag, and update your CHANGELOG.
+* If you want to name the pre-release, you specify the name via --prerelease <name>. For example, suppose your pre-release should contain the alpha prefix:
+`npm run release -- --prerelease alpha`
 * `git push --follow-tags origin master`, this will push the tag up to GitHub
   and kick off a build on Travis CI which will publish your module once it succeeds.
 
